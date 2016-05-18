@@ -18,22 +18,70 @@ body {
 h1 {
   text-align: center;
   border: 2px solid;
+  display: inline-block;
+  position: relative;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
-h2 {
+h2.subheader {
   text-align: center;
-  border: 1px solid;
 }
+
 
 #intro {
   
-
 }
-.topfive {
-  font-family: helvetica;
+
+/*.listPositions {
   margin-left: 20px;
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+  padding: 10px;
+  vertical-align: top;
+  display: block;
+}*/
+
+/*.listPositions {
+    width: 250px;
+  height: 300px;
+  display: inline-block;
+  padding: 10px;
+  vertical-align: top;
+}*/
+
+li {
+  width: 250px;
+  height: 300px;
+  display: inline-block;
+  padding: 10px;
+  vertical-align: top;
 }
 
-.imagePosition {
-  margin-left: 50px;
+.list {
+  border: 1px solid black;
+  text-align: center;
+
+}
+
+a {
+  display: block;
+}
+
+.video {
+  display: block;
+  vertical-align: top;
+  position: relative;
+  padding: 0% 30%;
+  padding-bottom: 5em;
+
+}
+
+.sectionTwo {
+  border: 1px solid;
+  display: block;
+  vertical-align: top;
+  padding: 10px;
+
 }
