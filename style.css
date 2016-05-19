@@ -28,6 +28,9 @@ h2.subheader {
   text-align: center;
 }
 
+h1.aboutPage {
+  padding-left: 2em;
+}
 
 #intro {
   
@@ -51,7 +54,11 @@ h2.subheader {
   vertical-align: top;
 }*/
 
-li {
+
+
+li.list {
+  border: 1px solid black;
+  text-align: center;
   width: 250px;
   height: 300px;
   display: inline-block;
@@ -59,11 +66,19 @@ li {
   vertical-align: top;
 }
 
-.list {
-  border: 1px solid black;
-  text-align: center;
-
+li.aboutMe {
+  margin-left: 10%;
 }
+
+p#descriptionAbout {
+  padding-left: 7% 10%;
+  display: block;
+}
+
+.aboutClass {
+  background-color: #add8e6;
+}
+
 
 a {
   display: block;
@@ -75,7 +90,6 @@ a {
   position: relative;
   padding: 0% 30%;
   padding-bottom: 5em;
-
 }
 
 .sectionTwo {
@@ -84,4 +98,8 @@ a {
   vertical-align: top;
   padding: 10px;
 
+}
+
+.aboutTable {
+  background-image: url(Three_Use_Cases_How_Big_Data_Helps_Save_The_Earth.jpg);
 }
