@@ -101,5 +101,12 @@ a {
 }
 
 .aboutTable {
-  background-image: url(Three_Use_Cases_How_Big_Data_Helps_Save_The_Earth.jpg);
+  background-color: #5B88F6;
+  background
+}
+
+footer {
+  text-align: center;
+  display: block;
+
 }
